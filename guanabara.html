@@ -12,7 +12,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
     />
-    <link rel="stylesheet" href="guanabara.css">
+    <link rel="stylesheet" href="guanabara.css" />
   </head>
   <body>
     <!-- ===== NAV ===== -->
@@ -132,7 +132,23 @@
         <!-- BIO GRID -->
         <div class="bio-grid">
           <div class="avatar-card reveal">
-            <div class="avatar-circle" aria-hidden="true">👨‍🏫</div>
+            <div class="avatar-circle" aria-hidden="true">
+              <img
+                src="https://avatars.githubusercontent.com/u/66076428?v=4"
+                alt="Gustavo Guanabara"
+                style="
+                  width: 100%;
+                  height: 100%;
+                  object-fit: cover;
+                  border-radius: 50%;
+                  display: block;
+                "
+                onerror="
+                  this.style.display = 'none';
+                  this.parentElement.style.background = '#1e3a5f';
+                "
+              />
+            </div>
             <div class="avatar-name">Gustavo Guanabara</div>
             <div class="avatar-role">
               Professor · Bacharel em Ciência da Computação<br />Licenciado em
@@ -612,8 +628,8 @@
                 <div class="card-body">
                   <h3 class="card-title">HTML5 &amp; CSS3 — Módulo 4</h3>
                   <p class="card-desc">
-                    Organização de conteúdo, acessibilidade e
-                    projetos reais completos.
+                    Organização de conteúdo, acessibilidade e projetos reais
+                    completos.
                   </p>
                 </div>
                 <div class="card-meta">
@@ -634,7 +650,7 @@
                   Acessar Playlist</a
                 >
               </article>
-               <article
+              <article
                 class="course-card reveal reveal-delay-4"
                 role="listitem"
               >
