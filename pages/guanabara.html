@@ -1,0 +1,575 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Curso em Vídeo — Gustavo Guanabara</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="/assets/css/guanabara.css" />
+  </head>
+  <body>
+    <!-- ===== NAV ===== -->
+    <nav aria-label="Navegação principal">
+      <div class="nav-logo" aria-label="Curso em Vídeo">
+        <div class="logo-mark" aria-hidden="true">
+          <i class="fa-brands fa-youtube"></i>
+        </div>
+        <span>Curso em <em>Vídeo</em></span>
+      </div>
+      <a href="/pages/index.html" class="btn-back" aria-label="Voltar">
+        <i class="fa-solid fa-arrow-left" aria-hidden="true"></i>
+        Voltar
+      </a>
+    </nav>
+
+    <!-- ===== HERO ===== -->
+    <header class="hero">
+      <div class="hero-inner">
+        <span class="hero-label">100% gratuito · YouTube · Desde 2013</span>
+        <h1>
+          Aprenda tecnologia<br />
+          <em>do jeito certo.</em>
+        </h1>
+        <p class="hero-desc">
+          Prof. <strong>Gustavo Guanabara</strong> — mais de 30 anos ensinando,
+          1,5 milhão de alunos e uma filosofia simples:
+          <strong>não pule etapas.</strong>
+        </p>
+        <div class="hero-actions">
+          <a href="#cursos" class="btn-primary">Ver os cursos</a>
+          <a
+            href="https://www.youtube.com/@CursoemVideo"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn-secondary"
+          >
+            <i class="fa-brands fa-youtube"></i> Canal no YouTube
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-stats" aria-label="Estatísticas">
+        <div class="stat-item">
+          <strong>1,5M+</strong>
+          <span>Inscritos</span>
+        </div>
+        <div class="stat-item">
+          <strong>300+</strong>
+          <span>Videoaulas</span>
+        </div>
+        <div class="stat-item">
+          <strong>10+</strong>
+          <span>Cursos completos</span>
+        </div>
+        <div class="stat-item">
+          <strong>R$ 0</strong>
+          <span>Para você</span>
+        </div>
+      </div>
+    </header>
+
+    <!-- ===== FRASE DO MESTRE ===== -->
+    <section class="quote-section" aria-label="Frase do professor">
+      <blockquote>
+        <p>
+          "Não existe atalho para o conhecimento.
+          <em>Cada etapa importa</em> — e o melhor momento para começar é
+          agora."
+        </p>
+        <cite>— Gustavo Guanabara</cite>
+      </blockquote>
+    </section>
+
+    <!-- ===== SOBRE ===== -->
+    <section id="sobre" class="sobre-section" aria-label="Sobre o Professor">
+      <div class="container">
+        <div class="section-label">Sobre o Mestre</div>
+        <h2>Quem é <em>Gustavo Guanabara</em>?</h2>
+        <p class="section-intro">
+          Professor carioca desde 1994. Em 2005, lançou o primeiro curso online
+          de PHP no Brasil — mais de <strong>8 milhões de downloads</strong>. Em
+          2013, nasceu o Curso em Vídeo. Hoje, é referência absoluta no ensino
+          de tecnologia em português.
+        </p>
+
+        <!-- PERFIL -->
+        <div class="perfil-card">
+          <div class="perfil-foto">
+            <img
+              src="https://avatars.githubusercontent.com/u/66076428?v=4"
+              alt="Gustavo Guanabara"
+              onerror="
+                this.style.display = 'none';
+                this.parentElement.classList.add('foto-fallback');
+              "
+            />
+          </div>
+          <div class="perfil-info">
+            <div class="perfil-nome">Gustavo Guanabara</div>
+            <div class="perfil-cargo">
+              Professor · Bacharel em Ciência da Computação · Licenciado em
+              Informática
+            </div>
+            <div class="perfil-tags">
+              <span class="ptag">HTML &amp; CSS</span>
+              <span class="ptag">Python</span>
+              <span class="ptag">MySQL</span>
+              <span class="ptag">Java</span>
+              <span class="ptag">IA</span>
+              <span class="ptag">CyberSec</span>
+            </div>
+            <div class="perfil-nums">
+              <div class="pnum">
+                <strong>+30</strong><span>anos ensinando</span>
+              </div>
+              <div class="pnum"><strong>2M+</strong><span>alunos</span></div>
+              <div class="pnum">
+                <strong>8M+</strong><span>downloads 1º curso</span>
+              </div>
+              <div class="pnum">
+                <strong>2005</strong><span>1º curso online</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- TIMELINE simples -->
+        <div class="timeline" role="list">
+          <div class="tl-item" role="listitem">
+            <div class="tl-year">1994</div>
+            <div class="tl-content">
+              <strong>Início na docência.</strong> Do ensino infantil a cursos
+              técnicos e universitários.
+            </div>
+          </div>
+          <div class="tl-item" role="listitem">
+            <div class="tl-year">2005</div>
+            <div class="tl-content">
+              <strong>Pioneiro no ensino online.</strong> Primeiro curso de PHP
+              pela internet — 8M+ downloads gratuitos.
+            </div>
+          </div>
+          <div class="tl-item" role="listitem">
+            <div class="tl-year">2013</div>
+            <div class="tl-content">
+              <strong>Nasce o Curso em Vídeo.</strong> Canal no YouTube com
+              didática clara, linguagem acessível e custo zero.
+            </div>
+          </div>
+          <div class="tl-item" role="listitem">
+            <div class="tl-year">2023</div>
+            <div class="tl-content">
+              <strong>1ª década comemorada.</strong> Mais de 2 milhões de
+              alunos. Ex-alunos em Nubank, BTG, Americanas.
+            </div>
+          </div>
+          <div class="tl-item" role="listitem">
+            <div class="tl-year">Hoje</div>
+            <div class="tl-content">
+              <strong>Referência nacional.</strong> Palestrante internacional.
+              Novos cursos em produção. Sempre gratuito.
+            </div>
+          </div>
+        </div>
+
+        <!-- PILARES -->
+        <div class="section-label" style="margin-top: 3rem">
+          A Didática do Guanabara
+        </div>
+        <h2>Por que <em>funciona</em>?</h2>
+        <div class="pilares" role="list">
+          <div class="pilar" role="listitem">
+            <div class="pilar-num">01</div>
+            <h3>Do zero ao avançado</h3>
+            <p>Nenhuma etapa pulada. Cada conceito é base para o próximo.</p>
+          </div>
+          <div class="pilar" role="listitem">
+            <div class="pilar-num">02</div>
+            <h3>Gratuito de verdade</h3>
+            <p>Todo o conteúdo no YouTube. Sem paywall, sem pegadinha.</p>
+          </div>
+          <div class="pilar" role="listitem">
+            <div class="pilar-num">03</div>
+            <h3>Teoria + prática</h3>
+            <p>Cada conceito vem acompanhado de exemplo real e exercício.</p>
+          </div>
+          <div class="pilar" role="listitem">
+            <div class="pilar-num">04</div>
+            <h3>Linguagem humana</h3>
+            <p>Sem jargão desnecessário. Didática cativante e bem-humorada.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CURSOS ===== -->
+    <main id="cursos" role="main">
+      <section class="cursos-section" aria-label="Catálogo de cursos">
+        <div class="container">
+          <div class="section-label">Catálogo</div>
+          <h2>Escolha seu próximo <em>curso</em></h2>
+          <p class="section-intro">
+            Todos gratuitos no YouTube. Siga a ordem — não pule etapas.
+          </p>
+
+          <!-- HTML & CSS -->
+          <div class="cat-group">
+            <div class="cat-title">
+              <i
+                class="fa-brands fa-html5"
+                style="color: #fb923c"
+                aria-hidden="true"
+              ></i>
+              HTML5 &amp; CSS3
+              <span class="cat-badge">5 módulos</span>
+            </div>
+            <div class="cards-grid" role="list">
+              <article class="course-card" role="listitem">
+                <div class="card-header">
+                  <span class="card-level basico">Básico</span>
+                  <span class="card-meta">40 aulas · ~12h</span>
+                </div>
+                <h3>Módulo 1</h3>
+                <p>
+                  Estrutura HTML, formatação CSS e primeiras páginas do zero.
+                </p>
+                <a
+                  href="https://www.youtube.com/playlist?list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="btn-playlist"
+                >
+                  <i class="fa-brands fa-youtube" aria-hidden="true"></i>
+                  Acessar Playlist
+                </a>
+              </article>
+
+              <article class="course-card" role="listitem">
+                <div class="card-header">
+                  <span class="card-level basico">Básico</span>
+                  <span class="card-meta">24 aulas · ~8h</span>
+                </div>
+                <h3>Módulo 2</h3>
+                <p>Box model, Flexbox e layout responsivo com CSS moderno.</p>
+                <a
+                  href="https://www.youtube.com/playlist?list=PLHz_AreHm4dlUpEXkY1AyVLQGcpSgVF8s"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="btn-playlist"
+                >
+                  <i class="fa-brands fa-youtube" aria-hidden="true"></i>
+                  Acessar Playlist
+                </a>
+              </article>
+
+              <article class="course-card" role="listitem">
+                <div class="card-header">
+                  <span class="card-level inter">Intermediário</span>
+                  <span class="card-meta">21 aulas · ~7h</span>
+                </div>
+                <h3>Módulo 3</h3>
+                <p>CSS Grid, animações e transições avançadas de interface.</p>
+                <a
+                  href="https://www.youtube.com/playlist?list=PLHz_AreHm4dmcAviDwiGgHbeEJToxbOpZ"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="btn-playlist"
+                >
+                  <i class="fa-brands fa-youtube" aria-hidden="true"></i>
+                  Acessar Playlist
+                </a>
+              </article>
+
+              <article class="course-card" role="listitem">
+                <div class="card-header">
+                  <span class="card-level avanc">Avançado</span>
+                  <span class="card-meta">18 aulas · ~6h</span>
+                </div>
+                <h3>Módulo 4</h3>
+                <p>Acessibilidade, organização de conteúdo e projetos reais.</p>
+                <a
+                  href="https://www.youtube.com/playlist?list=PLHz_AreHm4dkcVCk2Bn_fdVQ81Fkrh6WT"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="btn-playlist"
+                >
+                  <i class="fa-brands fa-youtube" aria-hidden="true"></i>
+                  Acessar Playlist
+                </a>
+              </article>
+
+              <article class="course-card" role="listitem">
+                <div class="card-header">
+                  <span class="card-level avanc">Avançado</span>
+                  <span class="card-meta">18 aulas · ~6h</span>
+                </div>
+                <h3>Módulo 5</h3>
+                <p>Responsividade avançada, media queries, Flexbox e Grid.</p>
+                <a
+                  href="https://www.youtube.com/playlist?list=PLHz_AreHm4dn1bAtIJWFrugl5z2Ej_52d"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="btn-playlist"
+                >
+                  <i class="fa-brands fa-youtube" aria-hidden="true"></i>
+                  Acessar Playlist
+                </a>
+              </article>
+            </div>
+          </div>
+
+          <!-- PYTHON -->
+          <div class="cat-group">
+            <div class="cat-title">
+              <i
+                class="fa-brands fa-python"
+                style="color: #facc15"
+                aria-hidden="true"
+              ></i>
+              Python
+              <span class="cat-badge">3 módulos</span>
+            </div>
+            <div class="cards-grid" role="list">
+              <article class="course-card" role="listitem">
+                <div class="card-header">
+                  <span class="card-level basico">Básico</span>
+                  <span class="card-meta">40 aulas · ~14h</span>
+                </div>
+                <h3>Módulo 1</h3>
+                <p>
+                  Variáveis, operadores, decisão e repetição com exercícios.
+                </p>
+                <a
+                  href="https://www.youtube.com/playlist?list=PLHz_AreHm4dlKP6QQCekuIPky1CiwmdI6"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="btn-playlist"
+                >
+                  <i class="fa-brands fa-youtube" aria-hidden="true"></i>
+                  Acessar Playlist
+                </a>
+              </article>
+
+              <article class="course-card" role="listitem">
+                <div class="card-header">
+                  <span class="card-level inter">Intermediário</span>
+                  <span class="card-meta">19 aulas · ~9h</span>
+                </div>
+                <h3>Módulo 2</h3>
+                <p>
+                  Funções, módulos, erros e introdução à orientação a objetos.
+                </p>
+                <a
+                  href="https://www.youtube.com/playlist?list=PLHz_AreHm4dk_nZHmxxf_J0WRAqy5Czye"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="btn-playlist"
+                >
+                  <i class="fa-brands fa-youtube" aria-hidden="true"></i>
+                  Acessar Playlist
+                </a>
+              </article>
+
+              <article class="course-card" role="listitem">
+                <div class="card-header">
+                  <span class="card-level avanc">Avançado</span>
+                  <span class="card-meta">15 aulas · ~8h</span>
+                </div>
+                <h3>Módulo 3</h3>
+                <p>Python com MySQL, projetos práticos e pacotes avançados.</p>
+                <a
+                  href="https://www.youtube.com/playlist?list=PLHz_AreHm4dn_RXXoa3Ameh77f95Hgwv3"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="btn-playlist"
+                >
+                  <i class="fa-brands fa-youtube" aria-hidden="true"></i>
+                  Acessar Playlist
+                </a>
+              </article>
+            </div>
+          </div>
+
+          <!-- MYSQL -->
+          <div class="cat-group">
+            <div class="cat-title">
+              <i
+                class="fa-solid fa-database"
+                style="color: #22d3ee"
+                aria-hidden="true"
+              ></i>
+              MySQL
+              <span class="cat-badge">1 curso</span>
+            </div>
+            <div class="cards-grid" role="list">
+              <article class="course-card" role="listitem">
+                <div class="card-header">
+                  <span class="card-level basico">Básico</span>
+                  <span class="card-meta">30 aulas · ~10h</span>
+                </div>
+                <h3>Banco de Dados MySQL</h3>
+                <p>
+                  SQL, tabelas, queries, joins, stored procedures e modelagem.
+                </p>
+                <a
+                  href="https://www.youtube.com/playlist?list=PLHz_AreHm4dkBs-795Dsgvau_ekxg8g1r"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="btn-playlist"
+                >
+                  <i class="fa-brands fa-youtube" aria-hidden="true"></i>
+                  Acessar Playlist
+                </a>
+              </article>
+            </div>
+          </div>
+
+          <!-- JAVA -->
+          <div class="cat-group">
+            <div class="cat-title">
+              <i
+                class="fa-brands fa-java"
+                style="color: #f87171"
+                aria-hidden="true"
+              ></i>
+              Java
+              <span class="cat-badge">1 curso</span>
+            </div>
+            <div class="cards-grid" role="list">
+              <article class="course-card" role="listitem">
+                <div class="card-header">
+                  <span class="card-level basico">Básico</span>
+                  <span class="card-meta">25 aulas · ~9h</span>
+                </div>
+                <h3>Java para Iniciantes</h3>
+                <p>
+                  Lógica, POO, herança, polimorfismo e interfaces com prática.
+                </p>
+                <a
+                  href="https://www.youtube.com/playlist?list=PLHz_AreHm4dkI2ZdjTwZA4mPMxWTfNSpR"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="btn-playlist"
+                >
+                  <i class="fa-brands fa-youtube" aria-hidden="true"></i>
+                  Acessar Playlist
+                </a>
+              </article>
+            </div>
+          </div>
+
+          <!-- CYBERSECURITY -->
+          <div class="cat-group">
+            <div class="cat-title">
+              <i
+                class="fa-solid fa-shield-halved"
+                style="color: #c084fc"
+                aria-hidden="true"
+              ></i>
+              CyberSecurity
+              <span class="cat-badge">1 curso</span>
+            </div>
+            <div class="cards-grid" role="list">
+              <article class="course-card" role="listitem">
+                <div class="card-header">
+                  <span class="card-level inter">Intermediário</span>
+                  <span class="card-meta">12 aulas · ~5h</span>
+                </div>
+                <h3>Introdução à CyberSecurity</h3>
+                <p>
+                  Ameaças, proteção de sistemas, criptografia e boas práticas.
+                </p>
+                <a
+                  href="https://www.youtube.com/playlist?list=PLHz_AreHm4dlaTyjolzCFC6IjLzO8O0XV"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="btn-playlist"
+                >
+                  <i class="fa-brands fa-youtube" aria-hidden="true"></i>
+                  Acessar Playlist
+                </a>
+              </article>
+            </div>
+          </div>
+
+          <!-- IA -->
+          <div class="cat-group">
+            <div class="cat-title">
+              <i
+                class="fa-solid fa-brain"
+                style="color: #34d399"
+                aria-hidden="true"
+              ></i>
+              Inteligência Artificial
+              <span class="cat-badge">1 curso</span>
+            </div>
+            <div class="cards-grid" role="list">
+              <article class="course-card" role="listitem">
+                <div class="card-header">
+                  <span class="card-level inter">Intermediário</span>
+                  <span class="card-meta">16 aulas · ~6h</span>
+                </div>
+                <h3>Inteligência Artificial</h3>
+                <p>
+                  IA, machine learning, redes neurais e ferramentas do mercado.
+                </p>
+                <a
+                  href="https://www.youtube.com/playlist?list=PLHz_AreHm4dm24MhlWJYiR_Rm7TFtvs6S"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="btn-playlist"
+                >
+                  <i class="fa-brands fa-youtube" aria-hidden="true"></i>
+                  Acessar Playlist
+                </a>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ===== FOOTER ===== -->
+    <footer>
+      <p class="footer-brand">Curso em <em>Vídeo</em></p>
+      <p class="footer-tagline">
+        Hub de cursos gratuitos do Prof. Gustavo Guanabara
+      </p>
+      <div class="footer-links" aria-label="Links do rodapé">
+        <a
+          href="https://www.cursoemvideo.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Site Oficial</a
+        >
+        <a
+          href="https://www.youtube.com/@CursoemVideo"
+          target="_blank"
+          rel="noopener noreferrer"
+          >YouTube</a
+        >
+        <a
+          href="https://www.instagram.com/gustavoguanabara"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Instagram</a
+        >
+        <a href="#sobre">Sobre</a>
+        <a href="#cursos">Cursos</a>
+      </div>
+      <p class="footer-note">
+        Projeto de fã não oficial. Todo conteúdo pertence ao Gustavo Guanabara e
+        ao Curso em Vídeo.
+      </p>
+    </footer>
+
+    <script src="/assets/js/guanabara.js"></script>
+  </body>
+</html>
